@@ -1,0 +1,24 @@
+# Credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node / tooling
+node_modules/
+.npm/
+coverage/
+
+# Python cache and local test artifacts
+__pycache__/
+.pytest_cache/
+*.pyc
+playwright-report/
+test-results/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
