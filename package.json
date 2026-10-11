@@ -1,0 +1,12 @@
+{
+  "name": "careerdisha-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Career guidance and job-readiness browser prototype",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
