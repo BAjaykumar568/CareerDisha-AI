@@ -6,8 +6,6 @@ A responsive career-guidance web application prototype for Indian fresh graduate
 
 > **Project status:** Functional educational prototype built as an extension of a Jio AI Foundations App Architect capstone blueprint. The offline application uses rule-based guidance. A *separate, optional* Node.js endpoint can call Gemini for Disha Coach responses. This is **not** a deployed AI recommendation model, live job platform, or placement service.
 
-![CareerDisha AI desktop dashboard](assets/screenshots/dashboard-desktop.png)
-
 ## Features
 
 | Feature | What it does | Implementation |
@@ -24,11 +22,9 @@ A responsive career-guidance web application prototype for Indian fresh graduate
 
 Python Developer · Data Analyst · AI/ML Engineer · Frontend Developer · Backend Developer
 
-## Screenshots
+## Interface preview
 
-| Mobile dashboard | Learning roadmap | Job-readiness analyzer |
-| --- | --- | --- |
-| ![Mobile dashboard](assets/screenshots/dashboard-mobile.png) | ![Roadmap](assets/screenshots/roadmap-mobile.png) | ![Skill comparison](assets/screenshots/job-analyzer-mobile.png) |
+The working app is contained in [`index.html`](index.html). Open it locally to explore the dashboard, learning roadmap, job-readiness analyzer and responsive layouts. Screenshot assets are available in the separately prepared full project package and can be added to this repository later.
 
 ## Run locally (no dependencies)
 
@@ -80,9 +76,7 @@ CareerDisha-AI/
 ├── package.json               # Optional npm start command
 ├── test_app.py                # Browser interaction smoke tests (Playwright)
 ├── docs/
-│   ├── ARCHITECTURE.md        # Design decisions, limits and data flow
-│   └── CareerDisha_AI_Capstone_Blueprint.pdf
-├── assets/screenshots/        # Project screenshots
+│   └── ARCHITECTURE.md        # Design decisions, limits and data flow
 ├── .gitignore
 └── README.md
 ```
@@ -102,7 +96,7 @@ Browser-based smoke tests cover roadmap generation, milestone completion, job-sk
 
 ## Academic background
 
-The app is a supplementary working demonstration of a **Jio AI Foundations – App Architect** capstone. The course submission required a six-section **design blueprint**, not an implemented app. The associated PDF is provided under [`docs/`](docs/CareerDisha_AI_Capstone_Blueprint.pdf).
+The app is a supplementary working demonstration of a **Jio AI Foundations – App Architect** capstone. The course submission required a six-section **design blueprint**, not an implemented app. The full six-section blueprint is included in the supplementary project package; the repository documents its implementation under [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 ## Author
 
